@@ -1,9 +1,9 @@
-const connection= require("./models");
-const express= require("express");
-const app=express();
-const path=require("path");
-const expressHandlerbars=require("express-handlebars");
-const bodyparser=require("body-parser");
+let connection= require("./models");
+let express= require("express");
+let app=express();
+let path=require("path");
+let expressHandlerbars=require("express-handlebars");
+let bodyparser=require("body-parser");
 app.use(bodyparser.urlencoded({
     extended: true
 }));
